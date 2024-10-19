@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+<!-- ==================================== -->
+{% load static %}
+
+<!-- ==================================== -->
+{% block title %} NOSOTROS {% endblock title %}
+
+<!-- ==================================== -->
+{% block contenido %}
+
+<div>
+	<!-- section -->
+	<div class="About-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="aboutheading">
+						<h3>Nosotros <span class="orange_color"> nosotros</span></h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section layout_padding">
+		<div class="container">
+			<div class="row shadow p-3 mb-5 bg-body-tertiary rounded">
+				<div class="col-md-6">
+					<img src="{% static 'images/blog1.png' %}" alt="#" />
+				</div>
+				<div class="col-md-6">
+					<div class="full blog_cont">
+						<h4>Six Blog</h4>
+						<h5>Informatorio 2024</h5>
+						<p>
+							Somos un grupo de estudiantes, más específicamente el GRUPO 6 de
+							la Comisón 6 del Informatorio. <br />
+							Desarrollamos este Blog, como proyecto final de la 2da etapa de
+							capacitación del Informatorio.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Magui -->
+			<div>
+				<div
+					class="d-flex align-items-center margin_top_30 shadow p-3 mb-5 bg-body-tertiary rounded"
+				>
+					<div class="col-2">
+						<img
+							src="{% static 'images/magui.png' %}"
+							alt="#"
+							style="width: 130px"
+						/>
+					</div>
+					<div class="col-10">
+						<div class="full blog_cont">
+							<h4>Magdalena Brollo</h4>
+
+							<h5>
+								En la actualidad trabajo como profesora. Siempre que resulte
+								posible realizo cursos relacionados a informática. De todos
+								los temas de informática, lo que más me gusta es programación,
+								por eso decidí cursar el Informatorio.
+							</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Maxi -->
+			<div>
+				<div
+					class="d-flex align-items-center margin_top_30 shadow p-3 mb-5 bg-body-tertiary rounded"
+				>
+					<div class="col-2">
+						<img
+							src="{% static 'images/maxi.png' %}"
+							alt="#"
+							style="width: 130px"
+						/>
+					</div>
+					<div class="col-10">
+						<div class="full blog_cont">
+							<h4>Maximiliano Coscia</h4>
+
+							<h5>
+								Actualmente trabajo de paramédico, realizando traslados sanitarios 
+								aéreos y terrestres, ademas de desempeñarme como instructor nacional 
+								de	la ANB (Academia Nacional de Bomberos). Me gusta incursionar en 
+								la tecnología y la informática. Procuro mantenerme actualizado, tanto
+								en lo que se relacione con mi trabajo, como en el area informática 
+								con cursos y capacitaciones que se encuentren a mi alcance, sin 
+								descuidar a la familia.
+							</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--    fin nosotros      -->
+			
+		</div>
+	</div>
+	<!-- end section -->
+</div>
+
+{% endblock contenido %}
